@@ -1,0 +1,134 @@
+body {
+  font-family: "Droid Sans",sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  color: #08387f;
+}
+
+.header h1 {
+  padding: 10px;
+}
+
+.header img {
+  max-width: 150px;
+  float: left;
+}
+
+.banner {
+  position: relative;
+  z-index: -1;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav > .register-link > a:link, a:visited {
+    background-color: #08387f;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  border-top: 2px solid #08387f;
+  border-bottom: 2px solid #08387f;
+}
+
+.caption {
+    background: none repeat scroll 0 0 rgba(255,255,255,0.2);
+    padding: 1em;
+    top:30%;
+    left:10%;
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+}
+
+.affix nav {
+    color: #fff !important;
+    padding: 15px !important;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.affix-top nav {
+    padding: 25px !important;
+    z-index: 1;
+}
+
+.row h1 {
+  text-align: center;
+}
+
+.section h1 {
+
+}
+
+.section {
+  margin: 0px 50px;
+}
+
+.subsection {
+  padding: 15px 0px;
+}
+
+.subsection img {
+  width: 100%;
+}
+
+.subsection > * {
+  padding-top: 20px;
+}
+
+.sponsor {
+  display: inline-block;
+  height: 150px;
+  margin: auto;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.sponsor-test {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.sponsor-image-wrapper {
+  height: 100px;
+}
+
+.sponsor img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.register-contact {
+  height: 100px;
+}
+
+footer {
+  background-color: #ccc;
+  border-top: 1px solid #08387f;
+  padding: 20px
+}
