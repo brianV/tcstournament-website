@@ -103,7 +103,7 @@ li.register-link > a:link, a:visited {
 
 .sponsor {
   display: inline-block;
-  height: 150px;
+  min-height: 100px;
   margin: 10px;
   font-weight: bold;
   vertical-align: middle;
