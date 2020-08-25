@@ -31,7 +31,7 @@ h1 {
   text-align: center;
 }
 
-li.register-link > a:link, a:visited {
+li.register-link > a a:link, a:visited {
     background-color: #08387f;
     color: white;
     padding: 14px 25px;
@@ -137,4 +137,10 @@ footer {
 
 .centered {
     text-align: center;
+}
+
+.register-button {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
